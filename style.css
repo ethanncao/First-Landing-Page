@@ -162,6 +162,49 @@ ul {
   font-weight: bold;
 }
 
+/* FOURTH SECTION */
+.fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-right: 300px;
+  padding-left: 300px;
+  padding-bottom: 100px;
+}
+
+.cta-container {
+  width: 1000px;
+  height: 150px;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.cta-button {
+  width: 120px;
+  background-color: #3882F6;
+  border-color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.cta-text {
+  font-size: 24px;
+  color: #E5E7EB;
+  font-weight: bold;
+}
+
+.cta-subtext {
+  color: #dfe2e2;
+}
+
 
 /* FOOTER */
 .footer {
