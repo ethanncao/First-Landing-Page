@@ -1,3 +1,8 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
 /* 
   body section for general font size and stuff
  */
@@ -17,7 +22,6 @@ body {
   padding-right: 300px;
   padding-left: 300px;
 }
-
 
 .header-top {
   display: flex;
@@ -60,12 +64,13 @@ ul {
   display: flex;
   margin: 0;
   padding: 0;
-  gap: 12px;
+  gap: 20px;
 }
 
 .info-text {
   font-size: 18px;
   color: #b8b8b8;
+  width: 420px;
   margin-bottom: 5px;
 }
 
@@ -91,8 +96,50 @@ ul {
   padding-bottom: 10px;
 }
 
+/* SECOND SECTION */
+.second {
+  padding-top: 20px;
+  padding-right: 300px;
+  padding-left: 300px;
+  padding-bottom: 100px;
+}
+
+.header-text {
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #1F2937;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img {
+  width: 180px;
+  height: 150px;
+  border: 2px solid #3882F6;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.info-words {
+  width: 180px;
+  text-align: center;
+  font-size: 18px;
+  color: #696969;
+}
+
 /* FOOTER */
 .footer {
-  text-align: center;
-  font-size: 14px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: #dfdfdf; 
+  background-color: #1F2937;
 }
