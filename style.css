@@ -1,0 +1,98 @@
+/* 
+  body section for general font size and stuff
+ */
+body {
+  font-family: roboto;
+  margin:0;
+  padding: 0;
+}
+
+/* HEADER */
+.header {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 110px;
+}
+
+.header-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.placeholder-image {
+  background-color: #9b9c9c;
+  width: 500px;
+  height: 240px;
+  color: #c8c9ca;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text {
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 12px;
+}
+
+.info-text {
+  font-size: 18px;
+  color: #b8b8b8;
+  margin-bottom: 5px;
+}
+
+.header-links{
+  font-size: 18px;
+  color: #c8c9ca;
+}
+
+.logo {
+  font-weight: bold;
+  color: #F9FAF8;
+  font-size: 24px;
+}
+
+.sign-up {
+  width: 120px;
+  background-color: #3882F6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  font-size: 14px;
+}
